@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\vivianOS\\AndroidStudioProjects\\EkremFinalProje\\androidApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl\\values-nl.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\vivianOS\\.gradle\\caches\\transforms-3\\aebd17ca3dd57c4bb41ccd7000d2b27a\\transformed\\ui-1.0.0\\res\\values-nl\\values-nl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,197,280,377,453,555,642,731,796,861,938,1008",
+                        "endColumns": "91,82,96,75,101,86,88,64,64,76,69,119",
+                        "endOffsets": "192,275,372,448,550,637,726,791,856,933,1003,1123"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,197,280,377,453,555,642,731,796,861,1039,1109",
+                        "endColumns": "91,82,96,75,101,86,88,64,64,76,69,119",
+                        "endOffsets": "192,275,372,448,550,637,726,791,856,933,1104,1224"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\vivianOS\\.gradle\\caches\\transforms-3\\582200f0dbe0df309d2b9a4ed982d383\\transformed\\core-1.5.0\\res\\values-nl\\values-nl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "938",
+                        "endColumns": "100",
+                        "endOffsets": "1034"
+                    }
+                }
+            ]
+        }
+    ]
+}

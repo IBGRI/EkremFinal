@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ekrembgr.todo.androidApp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:5:5-20:19
+12        android:allowBackup="false"
+12-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:6:9-36
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\vivianOS\.gradle\caches\transforms-3\582200f0dbe0df309d2b9a4ed982d383\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:supportsRtl="true"
+15-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:7:9-35
+16        android:testOnly="true"
+17        android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+17-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:8:9-77
+18        <activity
+18-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:9:9-19:20
+19            android:name="com.ekrembgr.todo.androidApp.ToDoActivity"
+19-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:10:13-69
+20            android:exported="true"
+20-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:14:13-36
+21            android:icon="@mipmap/ic_launcher"
+21-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:12:13-47
+22            android:label="EkremFinalProje"
+22-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:11:13-44
+23            android:roundIcon="@mipmap/ic_launcher_round" >
+23-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:13:13-58
+24            <intent-filter>
+24-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:15:13-18:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:16:17-69
+25-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:17:17-77
+27-->C:\Users\vivianOS\AndroidStudioProjects\EkremFinalProje\androidApp\src\main\AndroidManifest.xml:17:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->[androidx.compose.ui:ui-tooling:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\cb6efa9787b0ecf067e022476a169be1\transformed\ui-tooling-1.0.0\AndroidManifest.xml:25:9-27:39
+31            android:name="androidx.compose.ui.tooling.PreviewActivity"
+31-->[androidx.compose.ui:ui-tooling:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\cb6efa9787b0ecf067e022476a169be1\transformed\ui-tooling-1.0.0\AndroidManifest.xml:26:13-71
+32            android:exported="true" />
+32-->[androidx.compose.ui:ui-tooling:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\cb6efa9787b0ecf067e022476a169be1\transformed\ui-tooling-1.0.0\AndroidManifest.xml:27:13-36
+33
+34        <provider
+34-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:26:9-34:20
+35            android:name="androidx.startup.InitializationProvider"
+35-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:27:13-67
+36            android:authorities="com.ekrembgr.todo.androidApp.androidx-startup"
+36-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:28:13-68
+37            android:exported="false" >
+37-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:29:13-37
+38            <meta-data
+38-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:31:13-33:52
+39                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+39-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:32:17-85
+40                android:value="androidx.startup" />
+40-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:33:17-49
+41        </provider>
+42
+43        <receiver
+43-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:36:9-45:20
+44            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+44-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:37:13-76
+45            android:directBootAware="false"
+45-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:38:13-44
+46            android:enabled="true"
+46-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:39:13-35
+47            android:exported="true"
+47-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:40:13-36
+48            android:permission="android.permission.DUMP" >
+48-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:41:13-57
+49            <intent-filter>
+49-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:42:13-44:29
+50                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+50-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:43:17-91
+50-->[androidx.profileinstaller:profileinstaller:1.0.0] C:\Users\vivianOS\.gradle\caches\transforms-3\b663e87936a2cc4f8aaa5b4e1c89b834\transformed\profileinstaller-1.0.0\AndroidManifest.xml:43:25-88
+51            </intent-filter>
+52        </receiver>
+53    </application>
+54
+55</manifest>
